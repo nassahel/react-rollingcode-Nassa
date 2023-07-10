@@ -1,16 +1,13 @@
 import './App.css';
-import Cards from './components/cards';
-import Count from './components/count';
-import { NavBar } from './components/nav/index';
+import { Products } from './components/products';
 
+//class > className
 const App = () => {
   return (
-    <div className="App">
-      <NavBar />
-      <Count />
-      <Cards />
+    <div>
+      <Products />
     </div>
   );
-}
+};
 
 export default App;
